@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .input [type="text"]{
+            padding: 5px;
+            width: 200px;
+            font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <input type="search" id="search" name="search...">
+            <button onclick="search()">search</button>
+            <p id="output"></p>
+
+        </form>
+        <script>
+            function search(){
+var SearchTerm = document.getElementById('search').value;
+if(searchTerm === 'Apple'){
+    document.getElementById('output').innnerHTML = 'search term matched:Appple']
+}
+
+            }
+        </script>
+    </body>
+</html>
